@@ -16,7 +16,7 @@ end
 def list_dwarves(array)
 
 array.each_with_index do |array, index|
-  print "#{array} #{index+1}"
+  print "#{index+1} #{array}"
 end
   # Use `each_with_index` to enumerate over the provided array
   #
