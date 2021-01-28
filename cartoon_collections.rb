@@ -2,7 +2,7 @@ def greet_characters(array)
 
 array.each do |array|
   print "Hello #{array}!"
-end
+
 
   # Use `each` to enumerate over the provided array
   #
