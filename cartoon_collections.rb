@@ -1,7 +1,7 @@
 def greet_characters(array)
 
 
-    array.each {|element|} 
+    array.each {|element|}
     print #{Hello r }
   # Use `each` to enumerate over the provided array
   #
