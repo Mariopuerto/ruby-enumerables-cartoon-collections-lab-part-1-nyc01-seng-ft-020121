@@ -1,7 +1,8 @@
 def greet_characters(array)
 
-  array.each do |array|
-    p "#{array}"
+
+    array.each { |element|element.class == String}
+    p element
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
